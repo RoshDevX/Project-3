@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 250px;
+    left: 350px;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div1 {
+    position: absolute;
+    left: 550px;
+    bottom: 280px;
+    width: 600px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    color: white;
+    font-size: bold;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.div2 {
+    position: absolute;
+    left: 350px;
+    bottom: 110px;
+    color: white;
+}
+
+.text1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.text2 {
+    font-size: 1.5rem;
+    color: rgb(175, 172, 172);
+}
+
+.greater {
+    color: rgb(146, 140, 140);
+    font-weight: 800;
+    position: absolute;
+    left: 10px;
+    bottom: 150px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.great:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lesser {
+    color: rgb(146, 140, 140);
+    font-weight: 800;
+    position: absolute;
+    left: 1490px;
+    bottom: 150px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.less:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pointer {
+    position: absolute;
+    left: 725px;
+    bottom: 10px;
+    color: white;
+    padding: 5px;
+    font-size: 0.6rem;
+}
+
+.texture {
+    color: rgb(146, 140, 140);
+}
+
+.container2 {
+    height: 350px;
+    width: 100%;
+}
+
+.img {
+    background-image: url(cards.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 320px;
+    position: absolute;
+    left: 350px;
+    top: 435px;
+}
+
+.div3 {
+    position: absolute;
+    left: 640px;
+    bottom: 65px;
+}
+
+.butt-on {
+    position: absolute;
+    left: 640px;
+    top: 650px;
+    background-color: #00ACEC;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.butt-on:hover {
+    transform: scale(1.06);
+}
+
+.container3 {
+    height: 300px;
+    width: 100%;
+    background-color: #6cd4fa;
+}
+
+.div4 {
+    position: absolute;
+    left: 640px;
+    top: 760px;
+}
+
+.text4 {
+    color: #FFFFFF;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.text5 {
+    color: #dfdbdb;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    margin-top: 100px;
+    height: 150px;
+    width: 450px;
+    padding: 12px 12px;
+    background-color: #FFFFFF;
+}
+
+.box2 {
+    margin-top: 100px;
+    height: 150px;
+    width: 450px;
+    padding: 12px 12px;
+    background-color: #FFFFFF;
+}
+
+.box3 {
+    margin-top: 100px;
+    height: 150px;
+    width: 450px;
+    padding: 12px 12px;
+    background-color: #FFFFFF;
+}
+
+.bold {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer {
+    height: 460px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.text6 {
+    color: #FFFFFF;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    position: absolute;
+    left: 220px;
+    top: 1065px;
+}
+
+.text7 {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    left: 220px;
+    top: 1100px;
+}
+
+.container4 {
+    position: absolute;
+    left: 220px;
+    top: 1140px;
+}
+
+input[type=text],
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    resize: vertical
+}
+
+.btn{
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+}
+
+.last{
+    left: 600px;
+}
+
+.main-container{
+    position: absolute;
+    left: 600px;
+    top: 1140px;
+}
+
+.list ul li{
+    display: block;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.foot-logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 1070px;
+    left: 1030px;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact-info{
+    position: absolute;
+    left: 1030px;
+    top: 1200px;
+    color: #FFFFFF;
+}
+
+.copyright-section{
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px;
+}
